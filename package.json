@@ -1,6 +1,6 @@
 {
   "name": "react-event-calendar-custom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React JS component that will display supplied event data within a calendar view of a given month.",
   "author": "TeaTime Team",
   "scripts": {
