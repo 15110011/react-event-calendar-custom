@@ -24,7 +24,7 @@ const config = {
         demo: path.join(ROOT_PATH, 'demo'),
         tests: path.join(ROOT_PATH, 'tests')
     },
-    filename: 'react-event-calendar',
+    filename: 'react-event-calendar-custom',
     library: 'ReactEventCalender'
 };
 const CSS_PATHS = [

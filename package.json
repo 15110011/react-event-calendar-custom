@@ -1,21 +1,10 @@
 {
   "name": "react-event-calendar-custom",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React JS component that will display supplied event data within a calendar view of a given month.",
   "author": "TeaTime Team",
   "scripts": {
-    "start": "webpack-dev-server",
-    "gh-pages": "webpack",
-    "gh-pages:deploy": "gh-pages -d gh-pages",
-    "gh-pages:stats": "webpack --profile --json > stats.json",
-    "dist": "webpack --display-error-details && node-sass style.css dist/style.css",
-    "dist:min": "webpack --display-error-details",
-    "dist:modules": "babel ./src --out-dir ./dist-modules",
-    "pretest": "npm run test:lint",
-    "preversion": "npm run test && npm run dist && npm run dist:min && git commit --allow-empty -am \"Update dist\"",
-    "prepublish": "npm run dist:modules",
-    "postpublish": "npm run gh-pages && npm run gh-pages:deploy",
-    "postinstall": "node lib/post_install.js"
+    "start": "webpack-dev-server"
   },
   "main": "dist-modules",
   "devDependencies": {
