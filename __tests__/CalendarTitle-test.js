@@ -2,13 +2,13 @@ jest.unmock('../src/components/CalendarTitle');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TestUtils from 'react-addons-test-utils';
+import TestUtils from 'react-dom/test-utils';
 import CalendarTitle from '../src/components/CalendarTitle';
 
 describe('CalendarTitle', () => {
 
     let component;
-    let node; 
+    let node;
 
     beforeEach(() => {
         component = TestUtils.renderIntoDocument(<div><CalendarTitle title="Sunday"/></div>);
